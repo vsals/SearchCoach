@@ -1,0 +1,77 @@
+﻿.seperator {
+    border: 1px solid lightgray;
+    height: 0.1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.search-box-leaderboard {
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+}
+
+.content-items-body {
+    padding-left: 2rem;
+}
+
+.user-name-header {
+    min-width: 21.75rem !important;
+}
+
+.questions-header {
+    padding-left: 2.5rem !important;
+    min-width: 25rem !important;
+    font-weight: bold;
+}
+
+.user-response-name {
+    padding-left: 2.5rem !important;
+    min-width: 25rem !important;
+}
+
+.user-response-data-count {
+    padding-left: 2.5rem !important;
+    min-width: 25rem !important;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.avatar-image-margin {
+    margin-right: 1rem;
+}
+
+.back-button {
+    margin-right: 0rem !important;
+}
+
+.export-to-excel {
+    margin-right: 4.8rem;
+}
+
+.user-name-content {
+    min-width: 21.75rem !important;
+}
+
+.select-all-users {
+    max-width: 8px;
+    width: 8px !important;
+}
+
+.user-data-table {
+    margin-left: 0.5rem;
+}
+
+.leader-board-heading {
+    padding: 2rem 0rem 0rem 2rem;
+    font-size: 1.6rem;
+}
+
+.leader-board-error-heading {
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
