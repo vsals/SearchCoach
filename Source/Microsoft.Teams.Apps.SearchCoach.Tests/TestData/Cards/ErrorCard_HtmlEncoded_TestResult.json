@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Enter a string having &#39;&amp;&#39;, &#39;&lt;&#39;, &#39;&gt;&#39; or &#39;&quot;&#39; in it: &lt;html&gt; ",
+      "size": "default",
+      "weight": "bolder",
+      "wrap": true
+    }
+  ]
+}

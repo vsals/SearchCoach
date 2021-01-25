@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "bot is not installed",
+      "size": "default",
+      "weight": "bolder",
+      "wrap": true
+    }
+  ]
+}
