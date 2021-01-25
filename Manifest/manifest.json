@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "17aa2411-d8c2-4200-9dd7-73b175ec8e7b",
+  "packageName": "com.microsoft.teams.searchcoach",
+  "developer": {
+    "name": "<company name>",
+    "websiteUrl": "<website Url>",
+    "privacyUrl": "<company privacy Url>",
+    "termsOfUseUrl": "<company terms of use Url>"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Search Coach",
+    "full": "Search Coach"
+  },
+  "description": {
+    "short": "Search Coach.",
+    "full": "Search Coach."
+  },
+  "accentColor": "#7BFFFE",
+  "bots": [
+    {
+      "botId": "<<botId>>",
+      "scopes": [
+        "personal"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "Help",
+              "description": "Take a tour"
+            }
+          ]
+        }
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "staticTabs": [
+    {
+      "entityId": "SearchCoachId",
+      "name": "Search Coach",
+      "contentUrl": "<<appbaseUrl>>/search-coach",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "validDomains": [
+    "<<appDomain>>"
+  ],
+  "webApplicationInfo": {
+    "id": "<<botId>>",
+    "resource": "<ApplicationIdURI>"
+  }
+}
