@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopUpDomainContent renders snapshots 1`] = `
+"<div class=\\"ui-provider\\" dir=\\"ltr\\" data-uses-unhanded-props=\\"true\\">
+  <div class=\\"domain-popup\\">
+    <div class=\\"ui-flex domain-container\\" data-uses-unhanded-props=\\"true\\">
+      <div class=\\"ui-flex domain-button-container\\" data-uses-unhanded-props=\\"true\\">
+        <div aria-checked=\\"false\\" role=\\"checkbox\\" tabindex=\\"0\\" data-is-focusable=\\"true\\" data-aa-class=\\"Checkbox\\" class=\\"ui-checkbox\\" data-uses-unhanded-props=\\"true\\">
+          <div class=\\"ui-box ui-checkbox__indicator\\" data-uses-unhanded-props=\\"true\\"></div>
+        </div>
+        <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">.com</span><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">comCheckboxLabel</span></div>
+      </div>
+      <div class=\\"ui-flex domain-button-container\\" data-uses-unhanded-props=\\"true\\">
+        <div aria-checked=\\"false\\" role=\\"checkbox\\" tabindex=\\"0\\" data-is-focusable=\\"true\\" data-aa-class=\\"Checkbox\\" class=\\"ui-checkbox\\" data-uses-unhanded-props=\\"true\\">
+          <div class=\\"ui-box ui-checkbox__indicator\\" data-uses-unhanded-props=\\"true\\"></div>
+        </div>
+        <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">.org</span><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">orgCheckboxLabel</span></div>
+      </div>
+    </div>
+    <div class=\\"ui-flex domain-container\\" data-uses-unhanded-props=\\"true\\">
+      <div class=\\"ui-flex domain-button-container\\" data-uses-unhanded-props=\\"true\\">
+        <div aria-checked=\\"false\\" role=\\"checkbox\\" tabindex=\\"0\\" data-is-focusable=\\"true\\" data-aa-class=\\"Checkbox\\" class=\\"ui-checkbox\\" data-uses-unhanded-props=\\"true\\">
+          <div class=\\"ui-box ui-checkbox__indicator\\" data-uses-unhanded-props=\\"true\\"></div>
+        </div>
+        <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">.edu</span><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">eduCheckboxLabel</span></div>
+      </div>
+      <div class=\\"ui-flex domain-button-container\\" data-uses-unhanded-props=\\"true\\">
+        <div aria-checked=\\"false\\" role=\\"checkbox\\" tabindex=\\"0\\" data-is-focusable=\\"true\\" data-aa-class=\\"Checkbox\\" class=\\"ui-checkbox\\" data-uses-unhanded-props=\\"true\\">
+          <div class=\\"ui-box ui-checkbox__indicator\\" data-uses-unhanded-props=\\"true\\"></div>
+        </div>
+        <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">.net</span><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">netCheckboxLabel</span></div>
+      </div>
+    </div>
+    <div class=\\"ui-flex domain-container\\" data-uses-unhanded-props=\\"true\\">
+      <div class=\\"ui-flex domain-button-container\\" data-uses-unhanded-props=\\"true\\">
+        <div aria-checked=\\"false\\" role=\\"checkbox\\" tabindex=\\"0\\" data-is-focusable=\\"true\\" data-aa-class=\\"Checkbox\\" class=\\"ui-checkbox\\" data-uses-unhanded-props=\\"true\\">
+          <div class=\\"ui-box ui-checkbox__indicator\\" data-uses-unhanded-props=\\"true\\"></div>
+        </div>
+        <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">.gov</span><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">govCheckboxLabel</span></div>
+      </div>
+      <div class=\\"ui-flex domain-button-container\\" data-uses-unhanded-props=\\"true\\">
+        <div aria-checked=\\"false\\" role=\\"checkbox\\" tabindex=\\"0\\" data-is-focusable=\\"true\\" data-aa-class=\\"Checkbox\\" class=\\"ui-checkbox\\" data-uses-unhanded-props=\\"true\\">
+          <div class=\\"ui-box ui-checkbox__indicator\\" data-uses-unhanded-props=\\"true\\"></div>
+        </div>
+        <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">.mil</span><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">milCheckboxLabel</span></div>
+      </div>
+    </div>
+    <div class=\\"ui-flex margin-top\\" data-uses-unhanded-props=\\"true\\"><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">domainHelpTitle</span></div>
+    <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><span class=\\"ui-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">domainHelpContent</span></div>
+  </div>
+</div>"
+`;

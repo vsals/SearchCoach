@@ -1,0 +1,52 @@
+﻿.and-or-not-operators {
+    max-width: 2rem !important;
+}
+
+.margin-top {
+    margin-top: 0.8rem;
+}
+
+.operator-popup {
+    max-width: 39.5rem;
+}
+
+.location-popup {
+    max-width: 35rem;
+}
+
+.domain-popup {
+    max-width: 39rem;
+}
+
+.button1 {
+    max-width: 2rem;
+}
+
+.operators-div {
+    min-width: 35rem;
+}
+
+.operators-div2 {
+    max-width: 40rem;
+}
+
+.location-dropdown {
+    min-width: 30rem;
+}
+
+.search-dropdown-margin {
+    margin-top: 0.5rem;
+}
+
+.domain-button-container {
+    min-width: 18rem;
+}
+
+.domain-container {
+    padding-top: 0.5em;
+}
+
+.operatorCheckbox {
+    padding-right: 0px;
+    padding-top: 1px;
+}

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchLandingPage renders snapshots 1`] = `
+"<div class=\\"ui-provider\\" dir=\\"ltr\\" data-uses-unhanded-props=\\"true\\">
+  <div class=\\"container-div\\">
+    <div class=\\"container-subdiv\\">
+      <div class=\\"search-container\\">
+        <div class=\\"search-text-container\\">
+          <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><span role=\\"img\\" aria-hidden=\\"true\\" class=\\"ui-icon\\"><svg role=\\"presentation\\" focusable=\\"false\\" viewBox=\\"8 8 16 16\\"><path class=\\"ui-icon__outline\\" d=\\"M23.352,22.648l-4.714-4.713A5.711,5.711,0,0,0,20,14.25,5.75,5.75,0,1,0,14.25,20a5.711,5.711,0,0,0,3.685-1.362l4.713,4.714a.5.5,0,1,0,.7-.7ZM9.5,14.25A4.75,4.75,0,1,1,14.25,19,4.8,4.8,0,0,1,9.5,14.25Z\\"></path><path class=\\"ui-icon__filled\\" d=\\"M14.25,8a6.236,6.236,0,0,1,5.062,9.9l4.4,4.391A.974.974,0,0,1,24,23a1.029,1.029,0,0,1-1,1,.982.982,0,0,1-.711-.3L17.9,19.312A6.246,6.246,0,1,1,14.25,8Zm0,2a4.25,4.25,0,1,0,4.25,4.25A4.285,4.285,0,0,0,14.25,10Z\\"></path></svg></span><span class=\\"ui-text search-page-text\\" dir=\\"auto\\" data-uses-unhanded-props=\\"true\\">Search Coach</span></div>
+        </div>
+        <div class=\\"search-box-container\\">
+          <div class=\\"search-box\\">
+            <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\">
+              <div class=\\"ui-box ui-input\\" data-aa-class=\\"Input\\" data-uses-unhanded-props=\\"true\\">
+                <div class=\\"ui-box\\" data-uses-unhanded-props=\\"true\\"><input class=\\"ui-box ui-input__input\\" placeholder=\\"Search\\" type=\\"text\\" id=\\"ui-input-1\\" data-uses-unhanded-props=\\"true\\" value=\\"\\">
+                  <div class=\\"ui-box ui-input__icon\\" data-uses-unhanded-props=\\"true\\"><button data-aa-class=\\"Button\\" class=\\"ui-button\\" title=\\"Create\\" data-uses-unhanded-props=\\"true\\">
+                      <div class=\\"ui-box\\" data-uses-unhanded-props=\\"true\\"><span role=\\"img\\" aria-hidden=\\"true\\" class=\\"ui-icon\\"><svg role=\\"presentation\\" focusable=\\"false\\" viewBox=\\"8 8 16 16\\"><path class=\\"ui-icon__outline\\" d=\\"M23.352,22.648l-4.714-4.713A5.711,5.711,0,0,0,20,14.25,5.75,5.75,0,1,0,14.25,20a5.711,5.711,0,0,0,3.685-1.362l4.713,4.714a.5.5,0,1,0,.7-.7ZM9.5,14.25A4.75,4.75,0,1,1,14.25,19,4.8,4.8,0,0,1,9.5,14.25Z\\"></path><path class=\\"ui-icon__filled\\" d=\\"M14.25,8a6.236,6.236,0,0,1,5.062,9.9l4.4,4.391A.974.974,0,0,1,24,23a1.029,1.029,0,0,1-1,1,.982.982,0,0,1-.711-.3L17.9,19.312A6.246,6.246,0,1,1,14.25,8Zm0,2a4.25,4.25,0,1,0,4.25,4.25A4.285,4.285,0,0,0,14.25,10Z\\"></path></svg></span></div>
+                    </button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=\\"search-box-container\\">
+          <div class=\\"search-filter-button-container\\">
+            <div class=\\"ui-flex\\" data-uses-unhanded-props=\\"true\\"><button aria-disabled=\\"false\\" data-aa-class=\\"PopupButton\\" class=\\"ui-button\\" data-testid=\\"operator-filter-button\\" aria-haspopup=\\"dialog\\" data-uses-unhanded-props=\\"true\\"><span dir=\\"auto\\" class=\\"ui-button__content\\" data-uses-unhanded-props=\\"true\\">operatorsButton</span></button><button aria-disabled=\\"false\\" data-aa-class=\\"PopupButton\\" class=\\"ui-button\\" aria-haspopup=\\"dialog\\" data-uses-unhanded-props=\\"true\\"><span dir=\\"auto\\" class=\\"ui-button__content\\" data-uses-unhanded-props=\\"true\\">locationButton</span></button><button aria-disabled=\\"false\\" data-aa-class=\\"PopupButton\\" class=\\"ui-button\\" aria-haspopup=\\"dialog\\" data-uses-unhanded-props=\\"true\\"><span dir=\\"auto\\" class=\\"ui-button__content\\" data-uses-unhanded-props=\\"true\\">domainsButton</span></button>
+              <div class=\\"ui-menubutton\\" data-uses-unhanded-props=\\"true\\"><button data-aa-class=\\"MenuButton__trigger\\" class=\\"ui-button\\" aria-haspopup=\\"true\\" id=\\"menubutton-trigger-3\\" data-uses-unhanded-props=\\"true\\"><span dir=\\"auto\\" class=\\"ui-button__content\\" data-uses-unhanded-props=\\"true\\">anyTimeButton</span></button></div><button aria-disabled=\\"false\\" data-aa-class=\\"PopupButton\\" class=\\"ui-button\\" aria-haspopup=\\"dialog\\" data-uses-unhanded-props=\\"true\\"><span dir=\\"auto\\" class=\\"ui-button__content\\" data-uses-unhanded-props=\\"true\\">gethelpButton</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;
