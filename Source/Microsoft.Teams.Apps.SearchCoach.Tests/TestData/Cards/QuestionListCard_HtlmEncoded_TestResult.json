@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Select one question from the list: ",
+      "size": "large",
+      "weight": "bolder"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "choiceset",
+      "style": "expanded",
+      "isMultiSelect": false,
+      "value": "1",
+      "choices": [
+        {
+          "type": "Input.Choice",
+          "title": "Enter a string having &#39;&amp;&#39;, &#39;&lt;&#39;, &#39;&gt;&#39; or &#39;&quot;&#39; in it: ",
+          "value": "1"
+        },
+        {
+          "type": "Input.Choice",
+          "title": "Part XVIII of the constitution deals with &lt; (- 30) &#215; 20 is equal to",
+          "value": "2"
+        },
+        {
+          "type": "Input.Choice",
+          "title": "Part XVIII of the constitution deals with &#39;&lt;&#39;, &#39;&gt;&#39; or &#39;&quot;&#39; in it: ",
+          "value": "3"
+        }
+      ],
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "id": "submit",
+      "title": "Send",
+      "data": { "action": "questionselector" }
+    }
+  ]
+}

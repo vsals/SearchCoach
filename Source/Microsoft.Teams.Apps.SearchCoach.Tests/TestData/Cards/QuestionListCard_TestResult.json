@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Select one question from the list: ",
+      "size": "large",
+      "weight": "bolder"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "choiceset",
+      "style": "expanded",
+      "isMultiSelect": false,
+      "value": "1",
+      "choices": [
+        {
+          "type": "Input.Choice",
+          "title": "Part XVIII of the constitution deals with",
+          "value": "1"
+        },
+        {
+          "type": "Input.Choice",
+          "title": "(- 30) &#215; 20 is equal to",
+          "value": "2"
+        },
+        {
+          "type": "Input.Choice",
+          "title": "The fundamental duties in Indian constitution is inspired by",
+          "value": "3"
+        }
+      ],
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "id": "submit",
+      "title": "Send",
+      "data": { "action": "questionselector" }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Hi there! I'm the Search Coach bot!",
+      "size": "default",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Searching the internet is an important skill for students to master. Your class will be using the Search Coach app to learn basic concepts and try out different types of searches. I may occasionally send out questions to quiz you on what you've learned. When I do, just reply to me and your teacher will see your answer. Happy searching!",
+      "size": "default",
+      "weight": "lighter",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Go to Search Coach",
+      "url": "https://teams.microsoft.com/l/entity/12345/SearchCoach"
+    }
+  ]
+}
