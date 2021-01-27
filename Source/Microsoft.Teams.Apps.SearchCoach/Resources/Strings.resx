@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Search Coach</value>
+    <comment>Application title to show in card.</comment>
+  </data>
+  <data name="CorrectAnswerText" xml:space="preserve">
+    <value>Correct answer!</value>
+    <comment>Text to show when user give correct answer</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Oops! something went wrong, please try again later.</value>
+    <comment>Text to show if there is any error in application.</comment>
+  </data>
+  <data name="PersonalScopeErrorMessage" xml:space="preserve">
+    <value>Messaging Extension only supports in Team Scope.</value>
+    <comment>Message to show if opening Messaging Extension from personal scope.</comment>
+  </data>
+  <data name="PersonalScopeWelcomeCardDeepLinkButtonText" xml:space="preserve">
+    <value>Go to Search Coach</value>
+    <comment>Text to show on deeplink button on personal scope welcome card.</comment>
+  </data>
+  <data name="QuestionAlreadySentErrorMessageText" xml:space="preserve">
+    <value>Question- **{0}** already sent to all team members of current team.</value>
+    <comment>Message to show if user is trying to sent same question multiple times.</comment>
+  </data>
+  <data name="TaskModuleErrorTitle" xml:space="preserve">
+    <value>Error</value>
+    <comment>Title to show on task module while showing any error message.</comment>
+  </data>
+  <data name="TaskModuleTitle" xml:space="preserve">
+    <value>Quiz</value>
+    <comment>Title to show on task module while showing data.</comment>
+  </data>
+  <data name="TeamScopeErrorMessage" xml:space="preserve">
+    <value>Bot is not installed in this team.</value>
+    <comment>Message to show if opening Messaging Extension from team scope &amp; bot is not installed.</comment>
+  </data>
+  <data name="PersonalScopeWelcomeCardHeadingText" xml:space="preserve">
+    <value>Searching the internet is an important skill for students to master. Your class will be using the Search Coach app to learn basic concepts and try out different types of searches. I may occasionally send out questions to quiz you on what you've learned. When I do, just reply to me and your teacher will see your answer. Happy searching!</value>
+    <comment>Heading text to show on personal scope welcome card.</comment>
+  </data>
+  <data name="PersonalScopeWelcomeCardTitleText" xml:space="preserve">
+    <value>Hi there! I'm the Search Coach bot!</value>
+    <comment>Welcome text to show on personal scope welcome card.</comment>
+  </data>
+  <data name="QuestionListTaskModuleTitle" xml:space="preserve">
+    <value>Quiz</value>
+    <comment>Title to show on task module while showing questions list.</comment>
+  </data>
+  <data name="QuestionsCardBodyTitleText" xml:space="preserve">
+    <value>Select one question from the list: </value>
+    <comment>Text to show on questions card body.</comment>
+  </data>
+  <data name="QuestionsCardSendButtonText" xml:space="preserve">
+    <value>Send</value>
+    <comment>Text to show on questions card body button text.</comment>
+  </data>
+  <data name="TeamScopeWelcomeCardHeadingText" xml:space="preserve">
+    <value>Searching the internet is an important skill for students to master. Your class will be using the Search Coach app to learn basic concepts and try out different types of searches. I may occasionally send out questions to quiz you on what you've learned. When I do, just reply to me and your teacher will see your answer. Happy searching!</value>
+    <comment>Heading text to show on team welcome card.</comment>
+  </data>
+  <data name="TeamScopeWelcomeCardTitleText" xml:space="preserve">
+    <value>Hi there! I'm the Search Coach bot!</value>
+    <comment>Welcome card title text to show on team welcome card.</comment>
+  </data>
+  <data name="WrongAnswerText" xml:space="preserve">
+    <value>Incorrect answer</value>
+    <comment>Text to show when user give wrong answer</comment>
+  </data>
+  <data name="QuestionAnswerCardCorrectAnswerMessageText" xml:space="preserve">
+    <value>Correct Answer:</value>
+    <comment>Text to show on question answers card for correct answer.</comment>
+  </data>
+  <data name="QuestionAnswerCardOpenUrlButtonText" xml:space="preserve">
+    <value>Search</value>
+    <comment>Text to show on question answers card open url search button.</comment>
+  </data>
+  <data name="QuestionAnswerCardShowCardTextBoxText" xml:space="preserve">
+    <value>Use search coach</value>
+    <comment>Text to show on question answers card as show card textbox label.</comment>
+  </data>
+  <data name="QuestionAnswerCardSubmitActionButtonText" xml:space="preserve">
+    <value>Submit</value>
+    <comment>Text to show on question answers card as submit button text.</comment>
+  </data>
+  <data name="QuestionAnswerCardSubmitNoteText" xml:space="preserve">
+    <value>Note from your teacher:</value>
+    <comment>Text to show on question answers card after submitting the answer.</comment>
+  </data>
+  <data name="QuestionAnswerCardTextBoxLabelText" xml:space="preserve">
+    <value>Search coach</value>
+    <comment>Text to show on question answers card as textbox label.</comment>
+  </data>
+  <data name="QuestionAnswerCardThankNoteText" xml:space="preserve">
+    <value>Thank you for taking the quiz!</value>
+    <comment>Text to show on question answers card as thank you note.</comment>
+  </data>
+  <data name="QuestionAnswerCardUserSendMessageText" xml:space="preserve">
+    <value>just sent you a question through search coach</value>
+    <comment>Text to show on question answers card who send the question.</comment>
+  </data>
+  <data name="QuestionAnswerCardWrongAnswerMessageText" xml:space="preserve">
+    <value>We suggest you use Search Coach to learn about this concept.</value>
+    <comment>Text to show on question answers card if answer is wrong.</comment>
+  </data>
+</root>
