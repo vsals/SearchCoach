@@ -1,0 +1,21 @@
+﻿.search-container {
+    position: fixed;
+    top: 30%;
+    left: 40%
+}
+
+.search-page-text {
+    font-size: 3.3rem;
+    color: #808080;
+}
+
+.search-text {
+    left: 60%;
+}
+
+.search-icon-text {
+    margin-left: 7.825rem;
+}
+.bing-image-width {
+    max-width: 3.8rem;
+}
