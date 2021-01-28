@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Teams.Apps.SearchCoach", "Microsoft.Teams.Apps.SearchCoach\Microsoft.Teams.Apps.SearchCoach.csproj", "{344A9E21-3038-4DE4-99F1-3168086B4EA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Teams.Apps.SearchCoach.Tests", "Microsoft.Teams.Apps.SearchCoach.Tests\Microsoft.Teams.Apps.SearchCoach.Tests.csproj", "{315A648F-7A07-422C-8ADE-948F2F75E04C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{344A9E21-3038-4DE4-99F1-3168086B4EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344A9E21-3038-4DE4-99F1-3168086B4EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344A9E21-3038-4DE4-99F1-3168086B4EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344A9E21-3038-4DE4-99F1-3168086B4EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315A648F-7A07-422C-8ADE-948F2F75E04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315A648F-7A07-422C-8ADE-948F2F75E04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315A648F-7A07-422C-8ADE-948F2F75E04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315A648F-7A07-422C-8ADE-948F2F75E04C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D0FE8C2-5E28-4585-A850-18E39EACDF61}
+	EndGlobalSection
+EndGlobal
