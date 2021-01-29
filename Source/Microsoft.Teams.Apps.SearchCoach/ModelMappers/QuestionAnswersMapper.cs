@@ -52,7 +52,7 @@ namespace Microsoft.Teams.Apps.SearchCoach.ModelMappers
                 TeamId = teamId,
                 SentByUserId = Guid.Parse(sentByUserId),
                 IsSubmitted = false,
-                IsCorrectAnswer = false,
+                IsCorrectAnswer = true,
                 IsQuestionAttempted = false,
             };
         }
