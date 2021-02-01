@@ -146,6 +146,7 @@ namespace Microsoft.Teams.Apps.SearchCoach
             this.configuration["MicrosoftAppId"] = client.GetSecret("MicrosoftAppId").Value.Value;
             this.configuration["MicrosoftAppPassword"] = client.GetSecret("MicrosoftAppPassword").Value.Value;
             this.configuration["Storage:ConnectionString"] = client.GetSecret("StorageConnection--SecretKey").Value.Value;
+            this.configuration["BingSearchApiKey"] = client.GetSecret("BingSearchApiKey").Value.Value;
         }
     }
 }
